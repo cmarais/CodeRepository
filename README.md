@@ -2,7 +2,7 @@
 
 This repository contains the code for the Decisions Science and Analytics technical interview.
 
-The repository is structured in three sections.  The sections contain the following:
+The repository is structured in two sections.  The sections contain the following:
 
 1) Matlab
 
@@ -14,13 +14,7 @@ The second piece of code is called 'policy_analysis_graph_level.m'.  This piece 
 
 2) R
 
-This section conatins one piece of code called 'fun_dynforecast_exponent.R'.  This code is designed to forecast a non-linear model in out of sample forecasts when the lag of the dependent variable is an explanatory variable.  The model takes the form: yt = b0 + exp(b1*exp(y(t-1))) + b2x1 + b3x2 + ...
+This section contains one piece of code called 'fun_dynforecast_exponent.R'.  This code is designed to forecast a non-linear model in out-of-sample forecasts when the lag of the dependent variable is an explanatory variable.  The model takes the form: yt = b0 + exp(b1*exp(y(t-1))) + b2x1 + b3x2 + ...
 
-3) SQL
 
-This section contains two pieces of SQL code.  
-
-The first piece of code is a store procedure which 
-
-The second piece of code is used to determine how many zero cases occur
 
