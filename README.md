@@ -14,7 +14,7 @@ The second piece of code is called 'policy_analysis_graph_level.m'.  This piece 
 
 2) R
 
-This section contains one piece of code called 'fun_dynforecast_exponent.R'.  This code is designed to forecast a non-linear model in out-of-sample forecasts when the lag of the dependent variable is an explanatory variable.  The model takes the form: yt = b0 + exp(b1*exp(y(t-1))) + b2x1 + b3x2 + ...
+This section contains one piece of code called 'fun_dynforecast_exponent.R'.  This code is designed to forecast a non-linear model in out-of-sample forecasts when the lag of the dependent variable is an explanatory variable.  The model takes the form: yt = b0 + exp(b1*y(t-1)) + b2x1 + b3x2 + ...
 
 
 
